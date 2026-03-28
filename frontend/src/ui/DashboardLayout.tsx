@@ -86,6 +86,7 @@ function roleToSidebar(role: Role): SidebarItem[] {
     { key: "profile", label: "Profile", to: "/student/profile", icon: "▣" },
     { key: "subjects", label: "Subjects", to: "/student/subjects", icon: "✦" },
     { key: "schedule", label: "Schedule", to: "/student/schedule", icon: "⏱" },
+    { key: "grades", label: "Grades", to: "/student/grades", icon: "◫" },
     { key: "events", label: "Events", to: "/student/events", icon: "◷" },
     { key: "skills", label: "Skills", to: "/student/skills", icon: "⬚" },
   ];

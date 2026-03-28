@@ -19,6 +19,7 @@ import { StudentSubjects } from "./pages/student/StudentSubjects";
 import { StudentEvents } from "./pages/student/StudentEvents";
 import { StudentSkills } from "./pages/student/StudentSkills";
 import { StudentSchedule } from "./pages/student/StudentSchedule";
+import { StudentGrades } from "./pages/student/StudentGrades";
 
 export function App() {
   return (
@@ -47,6 +48,7 @@ export function App() {
           <Route path="/student/subjects" element={<StudentSubjects />} />
           <Route path="/student/schedule" element={<StudentSchedule />} />
           <Route path="/student/events" element={<StudentEvents />} />
+          <Route path="/student/grades" element={<StudentGrades />} />
           <Route path="/student/skills" element={<StudentSkills />} />
         </Route>
         <Route path="/" element={<Navigate to="/login" replace />} />
